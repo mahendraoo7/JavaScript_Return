@@ -9,7 +9,7 @@ alert("hello");
     var remove in 2015 ES6 and add new veriable Let and const 
 
   2 let 
-    let is cannot be re declared and updated 
+    let is cannot be re declared and but can be updated 
     let is block scope variable 
 
   3 const 
