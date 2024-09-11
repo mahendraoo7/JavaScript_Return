@@ -21,7 +21,13 @@ alert("hello");
 
 /*   DATATYPE 
 
-  A : Premitive Datatype 
+   premitive = Store simple data like number string
+   Non-premitive = Store Multiple Data like object and array
+
+   mutable = something can be changed
+   immutable = something cannot be changed
+
+  A : Premitive Datatype  
     1. Number
     2. String
     3. Boolean
@@ -33,7 +39,6 @@ alert("hello");
   B : Non-premitive  
     1. Object 
     2. Array
-
 
         *** const is not update but const object key can update
 */
