@@ -40,5 +40,5 @@ alert("hello");
     1. Object 
     2. Array
 
-        *** const is not update but const object key can update
+        *** const veriable is not update but const object key can update
 */

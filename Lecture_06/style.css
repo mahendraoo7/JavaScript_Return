@@ -1,0 +1,19 @@
+body {
+    background-color:cadetblue;
+}
+
+.bg {
+    height: 900px;
+}
+
+.page {
+    color: burlywood;
+}
+.hello {
+    color: blue;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

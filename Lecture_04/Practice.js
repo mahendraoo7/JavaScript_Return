@@ -61,19 +61,19 @@
 //   console.log(D);
 
 
-// let Food = ["hello","world"]
+let Food = ["hello","world"]
 
-// console.log(Food);
+console.log(Food);
 
-// console.log(Food.toString())
+console.log(Food.toString())
 
 
-// let arr = [1,2,3,4,5,6,7,8];
+let arr = [1,2,3,4,5,6,7,8];
 
-// arr.splice(4,1,101);
+arr.splice(4,1,101);
 
-// console.log(arr);
+console.log(arr);
 
-// const compnies= ["Netflix","Amazon","Ubar","Ola","Mahindra","Eicher"]
+const compnies= ["Netflix","Amazon","Ubar","Ola","Mahindra","Eicher"]
 
-// compnies.pop()
+compnies.pop()
