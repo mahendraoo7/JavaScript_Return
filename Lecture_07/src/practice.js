@@ -1,5 +1,3 @@
-
-
 // Attributes
 
 //   let att =  document.querySelector("h1");
