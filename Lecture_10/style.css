@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color:azure;
+    
+}
+.Div {
+    display: grid ;
+    grid-template-columns: auto auto auto;
+    width: 600px;
+    height: 600px;
+    align-items: center;    
+
+}
+
+.css {
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    text-align: center;
+    
+}
+
