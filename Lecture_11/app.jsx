@@ -12,17 +12,52 @@
   }
   
     // callback in callback 
+    
+    getData(1,() => {
 
-  getData(1,() => {
-
-    getData(2,() => {
-
-        getData(3,()=> { 
-
-            getData(4)
-        })
+      getData(2,() => {
+  
+          getData(3,()=> {    
+  
+              getData(4)    
+          })
+      });  
     });
-  });
+  
+
+
+  //   id(1).then((res)=> {
+  //     return id(2);
+  //  }).then((res) => {
+  //     console.log("return Data");
+  //     return id(3);
+  //  }).then((res) => {
+  //     console.log("return Data");
+  //     return id(4);
+  //  }).then((res) => {
+  //     console.log("return Data");
+  //     return id(5);
+  //  })
+
+//   async function hello() {
+//     await id(1);
+//     console.log("getting data 2...")
+
+//     await id(2);
+//     console.log("getting data 3...")
+
+//     await id(3);
+//     console.log("getting data 4...")
+
+//     await id(4);
+//     console.log("getting data 5...")
+
+//     await id(5);
+
+//  }
+
+
+
 
 
 //  Solution of Callback hell

@@ -6,4 +6,5 @@ console.log(c)
 
 console.log(c);
 
-
+const s = "hello this is string" 
+console.log(s)
