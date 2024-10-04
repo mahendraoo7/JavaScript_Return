@@ -46,7 +46,7 @@
 
 // let arr = [22,33,23,24,25,26,27,28];
 
-// let newArr = arr.map((value) => {
+// let newArr = arr.map((value,i,a) => {
 
 //  return value*2;
 // })
@@ -117,25 +117,25 @@
 
 // factorial 
 
-// let n = prompt("enter Number");
+let n = prompt("enter Number");
 
-// let a = [];
+let a = [];
 
-// for(let i=1; i<=n; i++) 
-// {
-//     a[i-1] = i;
-// }
+for(let i=1; i<=n; i++) 
+{
+    a[i-1] = i;
+}
 
-// console.log(a);
+console.log(a);
 
-// let reduce =  a.reduce((r , c) => {
-//     return r*c;
-// })
-// let reducer =  a.reduce((r , c) => {
-//     return r+c;
-// })
+let reduce =  a.reduce((r , c) => {
+    return r*c;
+})
+let reducer =  a.reduce((r , c) => {
+    return r+c;
+})
 
-// console.log("Sum" , reducer)
+console.log("Sum" , reducer)
 
-// console.log("Factorial",reduce)
+console.log("Factorial",reduce)
 

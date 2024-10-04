@@ -10,7 +10,7 @@
 // for(let i=0; i<=4; i++) 
 // {
 //     sum = sum + i;
-//     console.log(sum);   
+//     console.log(sum);
 // }
 
 //  While Loop

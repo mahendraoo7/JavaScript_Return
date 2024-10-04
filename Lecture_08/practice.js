@@ -21,6 +21,7 @@ div.onmouseover = () => {
   }
 
 
+
 //   Event Listener
 
 
@@ -48,20 +49,30 @@ div.onmouseover = () => {
 
 //  Light And Dark Mode 
 
-
 let currmode = "light";
 
 let mode = document.querySelector(".mode");
-
+mode.style.background = "black"
+mode.style.color = "white"
 mode.addEventListener("click",() => {
     if(currmode === "light") {
         currmode = "dark";
+        mode.style.background = "white"
+        mode.style.color = "black"
         document.querySelector("body").style.background = "black";
         document.querySelector("body").style.color = "white";
     }else {
         currmode = "light";
         document.querySelector("body").style.background = "white"
         document.querySelector("body").style.color = "black"
+        mode.style.background = "black"
+        mode.style.color = "white"
     }
     console.log(currmode);
 })
+
+Swift = document.querySelector(".Swift");
+
+
+
+

@@ -11,6 +11,7 @@
           }
 
 
+
      // Event Object   
      
        node.event = (e) => {
@@ -26,11 +27,12 @@
      // Event Listeners
 
 
-          node.AddEventListener("click", () => {
+       node.AddEventListener("click", () => {
           
           })
 
-     //    Toggle : a switch between two stat   
+
+     //    Toggle : a switch between two state   
 
      
  
