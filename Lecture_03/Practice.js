@@ -33,14 +33,15 @@
 
 //   For Of 
 
-//    let str = "hello World"
-//    let length = 0;
-//    for(word of str)
-//    {
-//     // console.log(str.length);
-//     length++;
-//    }
-//       console.log(length);
+   let str = "hello World"
+   let length = 0;
+   for(word of str)
+   {
+    // console.log(str.length);
+    console.log(word);
+    length++;
+   }
+      console.log(length);
      
 
 //     For In
@@ -58,7 +59,7 @@
     //     console.log(i)
     //  }
 
-    // //  console.log(i)
+    //  console.log(i)
 
     // print 0 to 1000
 
